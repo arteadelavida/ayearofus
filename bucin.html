@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Year of Us</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffafc;
+    color: #333;
+    text-align: center;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    background: #ff7aa2;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4d85;
+}
+
+.hidden {
+    display: none;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.song-list a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #ff4d85;
+}
+
+footer {
+    padding: 50px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+    <h1>a year of us</h1>
+    <p>27 February 2025 - ∞</p>
+    <button onclick="showContent()">TEKAN AKU DONG PLS :'(</button>
+</section>
+
+<section id="content" class="hidden">
+
+    <h2>our moments</h2>
+    <p>Last Day Sekolah</p>
+    <p>Our First Day Together</p>
+    <p>Bukber</p>
+    <p>HSBL</p>
+    <p>Sesudah Nari</p>
+    <p>Foto Angkatan Putih Abu</p>
+    <p>Photo Booth</p>
+
+    <h2>songs that remind me of you</h2>
+    <div class="song-list">
+        <a href="https://open.spotify.com/track/13CwOTXUgBugeBByE9oIWb" target="_blank">First Song</a>
+        <a href="https://open.spotify.com/track/0Y7dCFSIdB9vJ8nnVIAfuv" target="_blank">Second Song</a>
+        <a href="https://open.spotify.com/track/1VTjpFsZhnKvEgZhlzPIzb" target="_blank">Third Song</a>
+        <a href="https://open.spotify.com/track/6cgBRhTzwk0OBhRX2E5F3V" target="_blank">Fourth Song</a>
+        <a href="https://open.spotify.com/playlist/3piEKSB8NCtPEvYI7rhW6X" target="_blank">Our Playlist</a>
+    </div>
+
+    <h2>Letter for Kai</h2>
+    <p style="max-width:700px;margin:auto;line-height:1.8;">
+    hallow bubb,<br><br>
+    ga kerasa kita udah 1 tahun bareng… dari yang awalnya cuma “temen”
+    sampai bisa ngejalanin hubungan selama 1 tahun.
+    aku juga mau minta maaf kalau pernah bikin kamu overthink atau sedih.
+    bukan karena aku gak peduli, kadang aku cuma gak tau cara nyampeinnya dengan benar.
+    <br><br>
+    but one thing you should know,
+    i love you very much.
+    makasih udah sabar, udah bertahan, dan udah tetep ada sampai sekarang.
+    i’m still gonna choose you, every day.
+    </p>
+
+</section>
+
+<footer>
+    Sincerely, Nahes
+</footer>
+
+<script>
+function showContent() {
+    document.getElementById("content").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
